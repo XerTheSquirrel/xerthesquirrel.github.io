@@ -2,7 +2,7 @@
 
 Hiya! Welcome to my GitHub! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones!
 
- ## Personal Accounts
+## Personal Accounts
  
    * [GitHub](https://github.com/XerTheSquirrel/)
    * [Keybase](https://keybase.io/xerthesquirrel)
