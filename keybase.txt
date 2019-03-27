@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/xerthesquirrel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shadowtail.dev
+  * I am xerthesquirrel (https://keybase.io/xerthesquirrel) on keybase.
+  * I have a public key ASApyfVAz6rbNUs9SF42KCNdxpG-pu1yZgwWzI_o4uzw0wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013177f235fdec9996d17007421e985263aeb07b57106a8cff1bf998f7927ced8c0a",
+      "host": "keybase.io",
+      "kid": "012029c9f540cfaadb354b3d485e3628235dc691bea6ed72660c16cc8fe8e2ecf0d30a",
+      "uid": "59045eef171109b8b485e849a4019d19",
+      "username": "xerthesquirrel"
+    },
+    "merkle_root": {
+      "ctime": 1553702380,
+      "hash": "a7864f19022334f663f8d8ffcd8ebfd62c2a089849475c69f08e258cc94207f80afae0b0e113942b98a7b56e796561e13876f6763eddec5d623205411568458a",
+      "hash_meta": "d025af12f0abcb0e507602998bb628a69160a5392bdfc16484b33d72e844585e",
+      "seqno": 5034008
+    },
+    "service": {
+      "entropy": "qDBkLNEHxFTOSbgL8eB2abBf",
+      "hostname": "shadowtail.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553702391,
+  "expire_in": 504576000,
+  "prev": "2401cf4f3535dd5865be0e1c0a76a058851dc6cb029499528e4a0e8fc93e8612",
+  "seqno": 63,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKcn1QM+q2zVLPUheNigjXcaRvqbtcmYMFsyP6OLs8NMKp3BheWxvYWTESpcCP8QgJAHPTzU13Vhlvg4cCnagWIUdxssClJlSjkoOj8k+hhLEIJfuivjL+R78kEqdsddcshjineMG8D7VbWZQL75Buhu0AgHCo3NpZ8RAl+J7H/TB13eZsAnOcT+XdIS5ZJc1JySEcezacrSmqfubwMKB3zYRlZzKVGF5tIZgltm/WjWBCUUq3x1Y808CD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGJMTzIoC1HBMcNUT8D1M0gWsgAL9/Y8vMD8F5hDBf5oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xerthesquirrel
+
+==================================================================
