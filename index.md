@@ -1,6 +1,6 @@
-# Stephanie Gawroriski (Xer Shadow Tail 🌺)
+# Stephanie Gawroriski
 
-Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones!
+Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones! I also am a furry and my fursona's name is _Xer_ and her title is _Shadow Tail_, she is an eastern gray squirrel who loves flowers and dresses.
 
 ## Projects and Experience
 
