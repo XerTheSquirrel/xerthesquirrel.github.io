@@ -1,6 +1,4 @@
----
-title: Stephanie Gawroriski (Xer Shadow Tail 🌺)
----
+# Stephanie Gawroriski (Xer Shadow Tail 🌺)
 
 Hiya! Welcome to my GitHub! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones!
 
