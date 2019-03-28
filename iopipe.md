@@ -24,6 +24,8 @@ I have additionally written articles related to Java and AWS Lambda development 
 
 # Releases
 
+Releases were uploaded to BinTray which would sync to Maven Central allowing any developer to use them easily.
+
 These are releases which I have personally performed once I was hired as full-time:
 
  * [1.12.0](https://github.com/iopipe/iopipe-java/releases/tag/1.12.0) (February 25, 2018)
