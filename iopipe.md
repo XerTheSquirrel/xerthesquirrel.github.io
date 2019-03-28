@@ -1,14 +1,18 @@
-# IOpipe Java Agent
+# IOpipe
 
  * [Website](https://iopipe.com/)
  * [Repository](https://github.com/XerTheSquirrel/iopipe-java)
    * [Upstream Repository](https://github.com/iopipe/iopipe-java)
+   * [Plugin: Log4J2 Support](https://github.com/iopipe/iopipe-java-logger-log4j2)
+   * [Plugin: TinyLog Support](https://github.com/iopipe/iopipe-java-logger-tinylog)
  * Language: **Java**
- * Duration: December 2017 to March 2019
+ * Duration: 
+   * Contracting: December 2017 to June 2018
+   * Software Engineer (Full-Time): June 2018 to March 2019
 
 The IOpipe Java agent allows you to measure and observe how your Java lambdas are running on [Amazon Web Services](https://aws.amazon.com/).
 
-I developed the IOpipe Java agent which allows those who are using Java in AWS Lambda to view metrics on their invocations such as the duration of execution and errors. I implemented the agent along with its features such as profiling and logging following the direction of the other agents, which have previously implemented said features. I managed all of the project releases.
+I developed the IOpipe Java agent which allows those who are using Java in AWS Lambda to view metrics on their invocations such as the duration of execution and errors. I implemented the agent along with its features such as profiling and logging following the direction of the other agents, which have previously implemented said features. I managed all of the project releases. I additionally provided technical support for the Java agent as well.
 
 Any source code I wrote is fully documented with comments and is intended to be as concise as possible so that anyone, including myself, can go back into any part of the project and continue working on it. For each pull request made for any of the code that I write or have contributed to, I sometimes have paired with my manager to review that code. I have additionally created and/or reviewed other pull requests which were generally written in JavaScript, Go, and Python.
 
@@ -17,6 +21,49 @@ To ensure quality across the dashboard and the various agents I spearheaded what
 While on the Engineering Team, I have been involved in a number of meetings on the architecture and direction of our product. My involvement in these meetings has never been specifically limited to my Java expertise, non-Java specific suggestions and thoughts have been iterated over and some of my ideas have been selected.
 
 I have additionally written articles related to Java and AWS Lambda development on Medium. My most popular articles were Java Libraries are Your Lambda Enemy, and Optimizing AWS Java Lambdas, both of these are available in my list of publications.
+
+# Releases
+
+These are releases which I have personally performed once I was hired as full-time:
+
+ * [1.12.0](https://github.com/iopipe/iopipe-java/releases/tag/1.12.0) (February 25, 2018)
+   * Added an extra environment variable for parity with other agents.
+   * Corrected building with OpenJDK 11.
+ * [1.11.0](https://github.com/iopipe/iopipe-java/releases/tag/1.11.0) (December 4, 2018)
+   * This version is available as a Amazon Lambda Layer (which was revealed at the big Amazon conference).
+   * Bug fixes, refactoring, and performance increases.
+ * [1.10.1](https://github.com/iopipe/iopipe-java/releases/tag/1.10.1) (November 13, 2018)
+   * Fixes a critical bug which caused a crash when the configuration resource was missing.
+ * [1.10.0](https://github.com/iopipe/iopipe-java/releases/tag/1.10.0) (November 5, 2018)
+   * Allowed configurations to be placed in the user's JAR file.
+   * Added support for uploading log files.
+ * [1.9.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.9.0) (October 10, 2018)
+   * Added support for uploading log files.
+   * Bug fixes, refactoring, and performance increases.
+ * [1.8.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.8.0) (September 10, 2018)
+   * Bug fixes, refactoring, and performance increases.
+ * [1.7.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.7.0) (August 28, 2018)
+   * Added support for generic entry points which allows one to wrap their lambdas with no code modifications, so as such this adds support for wrapping Spring Cloud Framework.
+   * Bug fixes, refactoring, and performance increases.
+ * [1.6.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.6.0) (August 7,  2018)
+   * Added SQS Event support.
+   * Bug fixes, refactoring, and performance increases.
+ * [1.5.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.5.0) (July 30, 2018)
+   * Added functionality to automatically add labels under certain conditions.
+   * Bug fixes, refactoring, and performance increases.
+ * [1.4.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.4.0) (June 28, 2018)
+   * Add capturing of virtual machine statistics (such as garbage collection) to the profiling snapshot.
+
+These releases were performed by _Pam Selle_ during the time I was a contractor:
+
+ * [1.3.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.3.0) (May 14, 2018)
+   * Support for capturing certain lambda events such as _API Gateway_.
+ * [1.2.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.2.0) (April 23, 2018)
+   * Support for labels.
+ * [1.1.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.1.0) (April 10, 2018)
+   * Support for profiling then loading the profiler information into VisualVM.
+ * [1.0.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.0.0) (April 10, 2018)
+   * First version!
 
 # Articles
 
@@ -63,6 +110,8 @@ This is a listing of all the articles I have written while working at IOpipe, no
 > So you are using AWS Lambda and your invocations seem to be running a bit slow, especially in the cold start area. Have you ever thought that this is caused by the libraries you are using? Java can be expensive on AWS Lambda, but it does not have to be at all.
 
 # Recommendations Received
+
+These are the recommendations which I have received while working for IOpipe. In last-name alphabetical order:
 
 ## Adam Johnson (CEO of IOpipe)
 
