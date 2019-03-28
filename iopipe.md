@@ -26,6 +26,8 @@ I have additionally written articles related to Java and AWS Lambda development 
 
 Releases were uploaded to BinTray which would sync to Maven Central allowing any developer to use them easily.
 
+## Java Agent
+
 These are releases which I have personally performed once I was hired as full-time:
 
  * [1.12.0](https://github.com/iopipe/iopipe-java/releases/tag/1.12.0) (February 25, 2018)
@@ -66,6 +68,20 @@ These releases were performed by _Pam Selle_ during the time I was a contractor:
    * Support for profiling then loading the profiler information into VisualVM.
  * [1.0.0](https://github.com/iopipe/iopipe-java/releases/tag/v1.0.0) (April 10, 2018)
    * First version!
+
+## Log4J2 Plugin
+
+ * [1.2.0](https://github.com/iopipe/iopipe-java-logger-log4j2/releases/tag/1.2.0) (February 25, 2018)
+   * Updated dependencies.
+   * Available as an AWS Lambda layer.
+ * [1.1.0](https://github.com/iopipe/iopipe-java-logger-log4j2/releases/tag/1.1.0) (October 15, 2018)
+
+## TinyLog Plugin
+
+ * [1.2.0](https://github.com/iopipe/iopipe-java-logger-tinylog/releases/tag/1.2.0) (February 25, 2018)
+   * Updated dependencies.
+   * Available as an AWS Lambda layer.
+ * [1.1.0](https://github.com/iopipe/iopipe-java-logger-tinylog/releases/tag/1.1.0) (October 15, 2018)
 
 # Articles
 
