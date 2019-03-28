@@ -1,6 +1,6 @@
 Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones! I also am a furry and my fursona's name is _Xer_ and her title is _Shadow Tail_, she is an eastern gray squirrel who loves flowers and dresses.
 
-You can verify my online identity along with obtaining my PGP key by checking out [my keybase]([Keybase](https://keybase.io/xerthesquirrel)).
+You can verify my online identity along with obtaining my PGP key by checking out [my keybase](https://keybase.io/xerthesquirrel).
 
 ## Projects and Experience
 
