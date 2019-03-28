@@ -2,6 +2,8 @@
 
 Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones! I also am a furry and my fursona's name is _Xer_ and her title is _Shadow Tail_, she is an eastern gray squirrel who loves flowers and dresses.
 
+You can verify my online identity along with obtaining my PGP key by checking out [my keybase]([Keybase](https://keybase.io/xerthesquirrel)).
+
 ## Projects and Experience
 
 This is a list of projects which I have worked on and shows off some of my experience:
@@ -9,9 +11,11 @@ This is a list of projects which I have worked on and shows off some of my exper
  * [SquirrelJME](squirreljme.md) (Java)
    * A Java ME 8 Virtual Machine.
  * [IOpipe](iopipe.md) (Java)
-   * Observability for your
+   * Observability for your Java lambdas.
  * [Trouble in Furry Land](tifl.md) (C)
    * A small game written in the span of a week for a jam session.
+
+You may also checkout my [LinkedIn](https://www.linkedin.com/in/xerthesquirrel/) as well!
 
 ## Personal Accounts
  
