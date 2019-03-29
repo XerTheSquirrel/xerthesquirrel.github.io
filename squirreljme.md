@@ -13,6 +13,10 @@ SquirrelJME uses its own run-time library (classes such as `java.lang.String` an
 
 There is a [project board](https://github.com/XerTheSquirrel/SquirrelJME/projects) which details the current state of SquirrelJME and anything which either needs to be done, is in progress, or is completed.
 
+# Run-time Library
+
+SquirrelJME requires a run-time library in order to execute Java code. This contains everything from the basic `java.lang` classes to user interface libraries such as LCDUI. Everything is written from the ground up to ensure that it is fast and uses a small amount of memory, since memory is a very limited resource on embedded systems.
+
 # Virtual Machines
 
 SquirrelJME currently consists of multiple virtual machines which are iteratively being written. Any experience and knowledge gained from writing a virtual machine is used to write the next one. There will however be ending point virtual machines which will just see small improvements since most of the work needed is in the run-time library.
@@ -78,7 +82,7 @@ This is a basic hello world which prints out a message and some system propertie
 
 ## Mystify Your Squirrels!
 
-This is based on a screen saver from Windows 3.1, which has since been replaced in Windows, and as such it brings back much memories. Due to SpringCoat being an unoptimized pure interpreter the animation on the VM is a bit slow, so it has been sped up in this picture. The code which I have written includes the methods used to draw the actual lines that you see here.
+This is based on a screen saver from Windows 3.1, which has since been replaced in Windows, and as such it brings back much memories. Due to SpringCoat being an unoptimized pure interpreter the animation on the VM is a bit slow, so it has been sped up in this picture. The code which I have written includes the methods used to draw the actual lines that you see here along with the API which enables you to draw graphics.
 
 ![Mystify Your Squirrels!](images/mystify_scaled.gif)
 
