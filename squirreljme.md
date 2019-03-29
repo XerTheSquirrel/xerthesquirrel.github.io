@@ -7,6 +7,8 @@
 
 SquirrelJME is my main personal project which is an implementation of Java Micro Edition 8 written from the ground up. It is currently a work in progress but is capable of running existing MIDlets. The code is written completely in Java and is very much self contained, requiring no external dependencies.
 
+Java ME is a subset of Java SE which is designed for small embedded systems and portable devices. The most common implementation of it is the older J2ME standard which runs on a wide number of old flip phones. It has a number of limitations compared to Java on the desktop which makes it have much less impact on systems.
+
 # Screenshots and Examples
 
 Of course this can actually run programs within the virtual machine! Below are a bunch of samples of programs which have been running which are more exciting than plain demos.
