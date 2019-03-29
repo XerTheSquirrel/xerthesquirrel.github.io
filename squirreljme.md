@@ -62,7 +62,7 @@ These are the releases of SquirrelJME, note that the release cycle aims to be ar
 
 ## Released
 
- * [0.2.0](https://github.com/XerTheSquirrel/SquirrelJME/releases/tag/0.2.0) (Decemver 25, 2018)
+ * [0.2.0](https://github.com/XerTheSquirrel/SquirrelJME/releases/tag/0.2.0) (December 25, 2018)
    * First release!
    * Provides SpringCoat
 
