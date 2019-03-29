@@ -7,7 +7,7 @@
 
 SquirrelJME is my main personal project which is an implementation of Java Micro Edition 8 written from the ground up. It is currently a work in progress but is capable of running existing MIDlets.
 
-# Running Examples
+# Screenshots and Examples
 
 Of course this can actually run programs within the virtual machine! Below are a bunch of samples of programs which have been running which are more exciting than plain demos.
 
@@ -43,6 +43,12 @@ This is a basic hello world which prints out a message and some system propertie
 This is based on a screen saver from Windows 3.1, which has since been replaced in Windows, and as such it brings back much memories. Due to SpringCoat being an unoptimized pure interpreter the animation on the VM is a bit slow, so it has been sped up in this picture.
 
 ![Mystify Your Squirrels!](images/mystify_scaled.gif)
+
+## Profiling SpringCoat
+
+SpringCoat has an internal profiler which in this screenshot you can see how slow a pure interpreter is, using this though I was able to write more efficient code. This is an old screenshot but it gets the point across.
+
+![Old profiling screenshot of SpringCpat](images/springcoatprofile.png)
 
 # Releases
 
