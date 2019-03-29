@@ -3,6 +3,7 @@
  * [Website](https://squirreljme.cc/)
  * [Repository](https://github.com/XerTheSquirrel/SquirrelJME)
  * Language: **Java** (there will be a small port in **C**)
+ * Tags: Compiler and Code Generation, Java, Java Virtual Machine, Linux, Profiling, Shell Scripting, VisualVM
  * Duration: Active since February 2016
 
 SquirrelJME is my main personal project which is an implementation of Java Micro Edition 8 written from the ground up. It is currently a work in progress but is capable of running existing MIDlets. The code is written completely in Java and is very much self contained, requiring no external dependencies.
@@ -12,6 +13,18 @@ Java ME is a subset of Java SE which is designed for small embedded systems and 
 SquirrelJME uses its own run-time library (classes such as `java.lang.String` and `java.util.LinkedList`) which have been written from scratch. Although there are a number of run-times that already exist such as OpenJDK and Apache Harmony, these are not designed with small underpowered systems in mind. As such, much consideration needs to be put in to ensure that the code executes fast while also not using much memory since SquirrelJME will be running on resource constrained systems.
 
 There is a [project board](https://github.com/XerTheSquirrel/SquirrelJME/projects) which details the current state of SquirrelJME and anything which either needs to be done, is in progress, or is completed.
+
+# Technology Experience
+
+This section contains specific experiences with technologies and is more fine grain than my general experience.
+
+## CircleCI (Continous Integration)
+
+SquirrelJME uses CircleCI to test that every commit is buildable and additionally runs every single test to help pinpoint issues and regressions.
+
+## Shell Scripting
+
+There are scripts for Linux, Mac OS X, and Windows which are capable of bootstrapping the build system and then building SquirrelJME. There also are a number of various other scripts that are used as utilities when needed, some of these utilities would be moving entire directories around or setting up development notes.
 
 # Run-time Library
 
