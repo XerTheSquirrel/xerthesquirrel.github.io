@@ -167,3 +167,15 @@ A single invocation, which is the lowest level of information.
 
 ![Single invocation page](images/sfinvocation.png)
 
+## Old Logging Record
+
+An old logging record that I made during development.
+
+![Old logging record](images/sfoldlog.png)
+
+## Old Profiling Screenshot
+
+This is a screenshot I made of the profiler output when I first started working on it in March of 2018.
+
+![Old profiler screenshot](images/sfoldprofile.png)
+
