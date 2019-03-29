@@ -198,7 +198,7 @@ These are the recommendations which I have received while working for IOpipe. In
 > 
 > If you're looking for a self driven engineer to work on any complex Java/JVM based work, look no further. 
 
-## Pam Selle (Direct Manager)
+## Pam Selle (Director of Engineering, Direct Manager)
 
 > I worked with Stephanie on a project that was not only critical to our business, but where the source code would be open sourced, no small matter. Stephanie took direction well, received feedback very well, and was very responsive during the entirety of the project. I knew that when I asked Stephanie to work on something, or gave feedback for modifications, I could trust her to execute on it and she'd promptly let me know when things were ready for re-review. She worked well within our process, and I'd recommend working with her.
 
