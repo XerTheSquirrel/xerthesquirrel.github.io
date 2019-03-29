@@ -149,7 +149,21 @@ These are the recommendations which I have received while working for IOpipe. In
 
 Some screen shots of the information captured by the agent visible in the IOpipe dashboard.
 
+## Functions Page
+
+How any running program will appear on the functions page.
+
 ![Functions page](images/sffunctions.png)
+
+## Function Page
+
+A single function being executed, showing all of the invocations.
+
 ![Function page](images/sffunction.png)
+
+## Single Invocation Page
+
+A single invocation, which is the lowest level of information.
+
 ![Single invocation page](images/sfinvocation.png)
 
