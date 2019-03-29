@@ -10,6 +10,8 @@ This is a list of projects which I have worked on and shows off some of my exper
    * A Java ME 8 Virtual Machine.
  * [IOpipe](iopipe.md) (Java)
    * Observability for your Java lambdas.
+ * [VisualVM NPS CPU Snapshot Dumper](nps-dump.md) (Java)
+   * Reverse engineering the VisualVM CPU snapshot format.
  * [Trouble in Furry Land](tifl.md) (C)
    * A small game written in the span of a week for a jam session.
 
