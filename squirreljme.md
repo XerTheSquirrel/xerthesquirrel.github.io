@@ -23,13 +23,13 @@ The speed of SpringCoat is very slow because it handles the Java stack itself an
 
 SpringCoat is first available in SquirrelJME 0.2.0 and it will be deprecated in SquirrelJME 0.6.0 to be removed completely in SquirrelJME 0.8.0.
 
-## SummerCoat (In Progress, Register Based)
+## SummerCoat (In Progress, Compiled Register Interpreter)
 
 SummerCoat is the next iteration and uses the knowledge gained from SpringCoat. Instead of directly executing Java Byte Code, it is first recompiled into a register based instruction set which not only results in less instructions being generated but more efficient code. The code density of SummerCoat's executable code is about half of Java Byte Code, so if the basic assumption that a single instruction takes a single cycle then SummerCoat will be about twice as fast as SpringCoat. However, SummerCoat has a number of optimizations which will vastly improve its speed over SpringCoat. SummerCoat will not execute native code, it will only execute this register based instruction set.
 
 SummerCoat is a long-term virtual machine which will first appear in SquirrelJME 0.4.0, since the register based code will be very important for later virtual machine steps this one will stick around and be the root ancestor for future virtual machines.
 
-## RatufaCoat (Future VM, Register Based)
+## RatufaCoat (Future VM, Compiled Register Interpreter)
 
 RatufaCoat is a port of SummerCoat to the C language which will allow normal C programs to utilize SquirrelJME to run Java code. It for the most part will appear in RetroArch which is a game platform for emulation and such.
 
