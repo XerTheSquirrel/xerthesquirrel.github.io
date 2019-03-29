@@ -6,7 +6,7 @@
    * [Plugin: Log4J2 Support](https://github.com/iopipe/iopipe-java-logger-log4j2)
    * [Plugin: TinyLog Support](https://github.com/iopipe/iopipe-java-logger-tinylog)
  * Language: **Java**
- * Tags: Amazon Web Services, CircleCI, Gradle, Java, JavaScript, JSON, JUnit, Linux, Maven, Profiling, REST APIs, Serverless API, Shell Scripting, VisualVM, XML, YAML
+ * Tags: Amazon Web Services, CircleCI, Customer Support, Gradle, Java, JavaScript, JSON, JUnit, Linux, Maven, Profiling, QA Testing, REST APIs, Serverless API, Shell Scripting, VisualVM, XML, YAML
  * Duration:
    * Contracting: December 2017 to June 2018
    * Software Engineer (Full-Time): June 2018 to March 2019
@@ -34,6 +34,10 @@ IOpipe itself was made for Amazon Web Services and as such I learned how to conf
 ## CircleCI (Continous Integration)
 
 CircleCI was used very heavily at IOpipe which performed everything from testing, to releases, and to deployment of various parts of the service. I was responsible for making sure that CircleCI continued to work with the Java agent. There have been issues with CircleCI that I was able to resolve.
+
+## Customer Support
+
+I have provided customer support for the Java agent and other parts of IOpipe.
 
 ## Maven (including Maven Central)
 
