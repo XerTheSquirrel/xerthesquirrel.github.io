@@ -44,6 +44,6 @@ Any donation of any amount is greatly appreciated! They really do help me and I 
    * LiteCoin (**LTC**):
      * `MAogNXdjPQ7ZABtpeXztCHf4UXvfiwTuGX`
    * Stellar Lumens (**XLM**):
-     * `GB4O2MAMTINKS6GM6RH34KO32TJMF4QZKZTFJBE4HIPFMKRBXFQ7IAF6`.
+     * `GB4O2MAMTINKS6GM6RH34KO32TJMF4QZKZTFJBE4HIPFMKRBXFQ7IAF6`
    * ZCash (**ZEC**):
      * `t1cBD4dJYNWs5TQk1JKFNy1Qkg3TBx8noXQ`
