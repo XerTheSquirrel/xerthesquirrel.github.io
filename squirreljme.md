@@ -42,7 +42,7 @@ This is a basic hello world which prints out a message and some system propertie
 
 This is based on a screen saver from Windows 3.1, which has since been replaced in Windows, and as such it brings back much memories. Due to SpringCoat being an unoptimized pure interpreter the animation on the VM is a bit slow, so it has been sped up in this picture.
 
-[![Mystify Your Squirrels!](images/mystify_scaled.gif)]
+![Mystify Your Squirrels!](images/mystify_scaled.gif)
 
 # Releases
 
