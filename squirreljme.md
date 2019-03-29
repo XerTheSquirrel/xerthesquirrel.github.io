@@ -7,6 +7,37 @@
 
 SquirrelJME is my main personal project which is an implementation of Java Micro Edition 8 written from the ground up. It is currently a work in progress but is capable of running existing MIDlets.
 
+# Running Examples
+
+Of course this can actually run programs within the virtual machine! Below are a bunch of samples of programs which have been running which are more exciting than plain demos.
+
+## Hello World and Virtual Machine Information (SpringCoat)
+
+This is a basic hello world which prints out a message and some system properties which are defined within the virtual machine.
+
+> ```
+> Hello! Squirrels are so cute!
+> java.version: 1.8.0
+> java.vendor: Stephanie Gawroriski
+> java.vendor.email: xerthesquirrel@gmail.com
+> java.vendor.url: https://squirreljme.cc/
+> java.vm.name: SquirrelJME SpringCoat
+> java.vm.version: 0.2.0
+> cc.squirreljme.apilevel: 0.2.0 (Day 359 of 2018)
+> java.vm.vendor: Stephanie Gawroriski
+> java.vm.vendor.email: xerthesquirrel@gmail.com
+> java.vm.vendor.url: https://squirreljme.cc/
+> java.runtime.name: SquirrelJME
+> java.runtime.version: 0.3.0
+> os.name: Linux
+> os.arch: amd64
+> os.version: 4.4.0-17763-Microsoft
+> cc.squirreljme.vm.execpath: /tmp/sx/sjmeboot.jar
+> cc.squirreljme.vm.freemem: 248523664
+> cc.squirreljme.vm.totalmem: 268435456
+> cc.squirreljme.vm.maxmem: 4253024256
+> ```
+
 # Releases
 
 These are the releases of SquirrelJME, note that the release cycle aims to be around every 4 months.
