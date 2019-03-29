@@ -144,3 +144,12 @@ These are the recommendations which I have received while working for IOpipe. In
 ## Erica Windisch (CTO of IOpipe, Direct Manager)
 
 > Stephanie is a fast and efficient developer that has exceeded our expectations. I began working with her when she was a junior engineer, but she quickly began solving difficult and complex problems as well as any of our senior staff.
+
+# Screenshots
+
+Some screen shots of the information captured by the agent visible in the IOpipe dashboard.
+
+![Functions page](images/sffunctions.png)
+![Function page](images/sffunction.png)
+![Single invocation page](images/sfinvocation.png)
+
