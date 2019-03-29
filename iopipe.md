@@ -22,6 +22,26 @@ While on the Engineering Team, I have been involved in a number of meetings on t
 
 I have additionally written articles related to Java and AWS Lambda development on Medium. My most popular articles were Java Libraries are Your Lambda Enemy, and Optimizing AWS Java Lambdas, both of these are available in my list of publications.
 
+# Technology Experience
+
+This section contains specific experiences with technologies and is more fine grain than my general experience.
+
+## Amazon Web Services
+
+IOpipe itself was made for Amazon Web Services and as such I learned how to configure and operate the various services. This mostly involved Lambda with API Gateway being the most common event, however other services such as S3 (file storage) and SQS (queue) were used as well.
+
+## REST APIs (HTTP POST, HTTP PUT, HTTP GET, etc.)
+
+The Java Agent itself used POST and PUT operations. The POST operation was used to upload the invocation record in the JSON format, this record would then be made available on the dashboard so that the user can use it. The PUT operation was used for accessing the signer which was capable of receiving log files and profiler snapshots. Both of these do use an authentication token to prevent masquerading as another user.
+
+To perform releases of the Java agent, shell scripts were written which utilizes the [BinTray API](https://bintray.com/docs/api/) to create new versions, upload all of the various files, publish the new version, then finally have it sync to the central [Maven Repository](https://search.maven.org/artifact/com.iopipe/iopipe/1.12.0/jar). The calls were essentially just performed using `curl` since the various operations were simple.
+
+Additionally, I have created a [Squirrel Facts](https://github.com/iopipe/examples/blob/master/java/src/main/java/com/iopipe/examples/SquirrelFactsAPIGateway.java) demo ([there is a live request you can test](https://heoaa8bb8a.execute-api.us-east-1.amazonaws.com/squirrels/squirrels?animal=squirrel)).
+
+## Serverless API
+
+The [Serverless API](https://serverless.com/) was used setup the Amazon Web Services so that any generated Java or Javascript programs would be uploading and ready to execute as needed. Since IOpipe only runs on Amazon Web Services, this was the only service which was used.
+
 # Releases
 
 Releases were uploaded to BinTray which would sync to Maven Central allowing any developer to use them easily.
