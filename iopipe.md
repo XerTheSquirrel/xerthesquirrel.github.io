@@ -6,7 +6,8 @@
    * [Plugin: Log4J2 Support](https://github.com/iopipe/iopipe-java-logger-log4j2)
    * [Plugin: TinyLog Support](https://github.com/iopipe/iopipe-java-logger-tinylog)
  * Language: **Java**
- * Duration: 
+ * Tags: Amazon Web Services, CircleCI, Gradle, Java, JavaScript, JSON, JUnit, Linux, Maven, Profiling, REST APIs, Serverless API, Shell Scripting, VisualVM, XML, YAML
+ * Duration:
    * Contracting: December 2017 to June 2018
    * Software Engineer (Full-Time): June 2018 to March 2019
 
