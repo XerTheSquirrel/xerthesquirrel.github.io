@@ -3,7 +3,7 @@
  * [Website](https://squirreljme.cc/)
  * [Repository](https://github.com/XerTheSquirrel/SquirrelJME)
  * Language: **Java** (there will be a small port in **C**)
- * Tags: Compiler and Code Generation, Java, Java Virtual Machine, Linux, Profiling, Shell Scripting, VisualVM
+ * Tags: C, Compiler and Code Generation, Embedded, Java, Java Virtual Machine, Linux, Profiling, Shell Scripting, VisualVM
  * Duration: Active since February 2016
 
 SquirrelJME is my main personal project which is an implementation of Java Micro Edition 8 written from the ground up. It is currently a work in progress but is capable of running existing MIDlets. The code is written completely in Java and is very much self contained, requiring no external dependencies.
