@@ -9,6 +9,32 @@ SquirrelJME is my main personal project which is an implementation of Java Micro
 
 Java ME is a subset of Java SE which is designed for small embedded systems and portable devices. The most common implementation of it is the older J2ME standard which runs on a wide number of old flip phones. It has a number of limitations compared to Java on the desktop which makes it have much less impact on systems.
 
+SquirrelJME uses its own run-time library (classes such as `java.lang.String` and `java.util.LinkedList`) which have been written from scratch. Although there are a number of run-times that already exist such as OpenJDK and Apache Harmony, these are not designed with small underpowered systems in mind. As such, much consideration needs to be put in to ensure that the code executes fast while also not using much memory since SquirrelJME will be running on resource constrained systems.
+
+# Virtual Machines
+
+SquirrelJME currently consists of multiple virtual machines which are iteratively being written. Any experience and knowledge gained from writing a virtual machine is used to write the next one. There will however be ending point virtual machines which will just see small improvements since most of the work needed is in the run-time library.
+
+## SpringCoat (Pure Interpreter)
+
+SpringCoat is a very basic and niave implementation of the Java Virtual Machine. It is not designed to be maintainable because its main purpose is for me to learn and to figure out how the virtual machine operates as a whole so that future virtual machines will be more efficient and better written.
+
+The speed of SpringCoat is very slow because it handles the Java stack itself and directly executes Java Byte Code without performing any kind of translations or optimizations.
+
+SpringCoat is first available in SquirrelJME 0.2.0 and it will be deprecated in SquirrelJME 0.6.0 to be removed completely in SquirrelJME 0.8.0.
+
+## SummerCoat (In Progress, Register Based)
+
+SummerCoat is the next iteration and uses the knowledge gained from SpringCoat. Instead of directly executing Java Byte Code, it is first recompiled into a register based instruction set which not only results in less instructions being generated but more efficient code. The code density of SummerCoat's executable code is about half of Java Byte Code, so if the basic assumption that a single instruction takes a single cycle then SummerCoat will be about twice as fast as SpringCoat. However, SummerCoat has a number of optimizations which will vastly improve its speed over SpringCoat. SummerCoat will not execute native code, it will only execute this register based instruction set.
+
+SummerCoat is a long-term virtual machine which will first appear in SquirrelJME 0.4.0, since the register based code will be very important for later virtual machine steps this one will stick around and be the root ancestor for future virtual machines.
+
+## RatufaCoat (Future VM, Register Based)
+
+RatufaCoat is a port of SummerCoat to the C language which will allow normal C programs to utilize SquirrelJME to run Java code. It for the most part will appear in RetroArch which is a game platform for emulation and such.
+
+RatufaCoat is a long-term virtual machine which will first appear in SquirrelJME 0.4.0. This will be the virtual machine that will be available for RetroArch. The virtual machine may see improvements from WinterCoat potentially.
+
 # Screenshots and Examples
 
 Of course this can actually run programs within the virtual machine! Below are a bunch of samples of programs which have been running which are more exciting than plain demos.
