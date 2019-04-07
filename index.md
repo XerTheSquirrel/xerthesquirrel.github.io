@@ -25,7 +25,7 @@ You may also checkout my [LinkedIn](https://www.linkedin.com/in/xerthesquirrel/)
    * [Keybase](https://keybase.io/xerthesquirrel)
    * [LinkedIn](https://www.linkedin.com/in/xerthesquirrel/)
    * [Mastodon (awoo.space)](https://awoo.space/@XerTheSquirrel)
-   * [Twitter](https://twitter.com/MultiPhasicApps)
+   * [Twitter](https://twitter.com/XerShadowTail)
    * E-Mail: <xerthesquirrel@gmail.com>
 
 ## Sending me a donation
