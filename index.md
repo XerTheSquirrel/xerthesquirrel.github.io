@@ -2,7 +2,7 @@ Hiya! My name is Stephanie and I love to develop and work on Java projects, espe
 
 You can verify my online identity along with obtaining my PGP key by checking out [my keybase](https://keybase.io/xerthesquirrel).
 
-My resume is available [here](Resume.pdf) ([DOCX](Resume.docx), and in long format: [PDF](Resume%20%28Long%29.pdf)/[DOCX](Resume%20%28Long%29.docx)!
+My resume is available [here](Resume.pdf) ([DOCX](Resume.docx), and in long format: [PDF](Resume%20%28Long%29.pdf)/[DOCX](Resume%20%28Long%29.docx))!
 
 ## Projects and Experience
 
