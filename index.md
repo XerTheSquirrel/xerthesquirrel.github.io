@@ -1,4 +1,4 @@
-Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones! I also am a furry and my fursona's name is _Xer_ and her title is _Shadow Tail_, she is an eastern gray squirrel who loves flowers and dresses.
+Hiya! My name is Stephanie and I love to d evelop and work on Java projects, especially embedded ones! This is my portfolio who goes a bit more in-depth if what I have done and I am doing!
 
 You can verify my online identity along with obtaining my PGP key by checking out [my keybase](https://keybase.io/xerthesquirrel).
 
@@ -10,6 +10,8 @@ This is a list of projects which I have worked on and shows off some of my exper
 
  * [SquirrelJME](squirreljme.md) (Java)
    * A Java ME 8 Virtual Machine.
+ * [Philips](philips.md) (Java)
+   * Medical devices a d otherwise.
  * [IOpipe](iopipe.md) (Java)
    * Observability for your Java lambdas.
  * [VisualVM NPS CPU Snapshot Dumper](nps-dump.md) (Java)
