@@ -1,4 +1,5 @@
 # xerthesquirrel.github.io
 
-This repository contains my personal page hosted on GitHub.
+This repository contains my [personal portfolio](https://shadowtail.dev/)
+hosted on GitHub.
 

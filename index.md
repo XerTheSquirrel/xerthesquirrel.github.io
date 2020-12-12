@@ -1,12 +1,19 @@
-Hiya! My name is Stephanie and I love to develop and work on Java projects, especially embedded ones! This is my portfolio which goes a bit more in-depth on what I have done and what I am doing!
+# Stephanie Gawroriski (Xer)
 
-You can verify my online identity along with obtaining my PGP key by checking out [my keybase](https://keybase.io/xerthesquirrel).
+Hiya! My name is Stephanie and I love to develop and work on Java projects,
+especially embedded ones! This is my portfolio which goes a bit more in-depth
+on what I have done and what I am doing!
 
-My resume is available [here](Resume.pdf) ([DOCX](Resume.docx), and in long format: [PDF](Resume%20%28Long%29.pdf)/[DOCX](Resume%20%28Long%29.docx))!
+You can verify my online identity along with obtaining my PGP key by checking
+out [my keybase](https://keybase.io/xerthesquirrel).
+
+My resume is available [here](Resume.pdf) ([DOCX](Resume.docx), and in long
+format: [PDF](Resume%20%28Long%29.pdf)/[DOCX](Resume%20%28Long%29.docx))!
 
 ## Projects and Experience
 
-This is a list of projects which I have worked on and shows off some of my experience:
+This is a list of projects which I have worked on and shows off some of my
+experience:
 
  * [SquirrelJME](squirreljme.md) (Java)
    * A Java ME 8 Virtual Machine.
@@ -19,7 +26,8 @@ This is a list of projects which I have worked on and shows off some of my exper
  * [Trouble in Furry Land](tifl.md) (C)
    * A small game written in the span of a week for a jam session.
 
-You may also checkout my [LinkedIn](https://www.linkedin.com/in/xerthesquirrel/) as well!
+You may also checkout my
+[LinkedIn](https://www.linkedin.com/in/xerthesquirrel/) as well!
 
 ## Personal Accounts
  
@@ -32,7 +40,8 @@ You may also checkout my [LinkedIn](https://www.linkedin.com/in/xerthesquirrel/)
 
 ## Sending me a donation
 
-Any donation of any amount is greatly appreciated! They really do help me and I appreciate all of them!
+Any donation of any amount is greatly appreciated! They really do help me and
+I appreciate all of them!
 
  * [Ko-Fi](http://ko-fi.com/xerthesquirrel)
  * [Patreon](https://www.patreon.com/SquirrelJME)

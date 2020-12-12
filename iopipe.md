@@ -6,12 +6,15 @@
    * [Plugin: Log4J2 Support](https://github.com/iopipe/iopipe-java-logger-log4j2)
    * [Plugin: TinyLog Support](https://github.com/iopipe/iopipe-java-logger-tinylog)
  * Language: **Java**
- * Tags: Amazon Web Services, CircleCI, Customer Support, Gradle, Java, JavaScript, JSON, JUnit, Linux, Maven, Profiling, QA Testing, REST APIs, Serverless API, Shell Scripting, VisualVM, XML, YAML
+ * Tags: Amazon Web Services, CircleCI, Customer Support, Gradle, Java,
+   JavaScript, JSON, JUnit, Linux, Maven, Profiling, QA Testing, REST APIs,
+   Serverless API, Shell Scripting, VisualVM, XML, YAML
  * Duration:
    * Contracting: December 2017 to June 2018
    * Software Engineer (Full-Time): June 2018 to March 2019
 
-The IOpipe Java agent allows you to measure and observe how your Java lambdas are running on [Amazon Web Services](https://aws.amazon.com/).
+The IOpipe Java agent allows you to measure and observe how your Java lambdas
+are running on [Amazon Web Services](https://aws.amazon.com/).
 
 I developed the IOpipe Java agent which allows those who are using Java in AWS Lambda to view metrics on their invocations such as the duration of execution and errors. I implemented the agent along with its features such as profiling and logging following the direction of the other agents, which have previously implemented said features. I managed all of the project releases. I additionally provided technical support for the Java agent as well.
 
